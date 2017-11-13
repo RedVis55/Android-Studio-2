@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.elvis.elvisafrifa_pset2.Main3Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fill in the words to complete the story !"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="29dp"
+        tools:textSize="35sp" />
+
+    <EditText
+        android:id="@+id/editplace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/Jens"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:onClick="goToStori"/>
+
+    <TextView
+        android:id="@+id/placeholderRemaining"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="word(s) left" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ElvisAfrifa-pset2</string>
+    <string name="pick_your_story">Pick Your Story!</string>
+    <string name="simple_story">Simple Story</string>
+    <string name="tarzan">Tarzan</string>
+    <string name="universe">Universe</string>
+    <string name="dance">Dance</string>
+    <string name="clothes">Clothes</string>
+    <string name="random">Random</string>
+</resources>
